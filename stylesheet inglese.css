@@ -1,0 +1,72 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 3px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgba(72, 220, 167, 0.5);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    margin: 0 0;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+article {
+    height: 250px;
+}
+
+img .bandiere {
+    margin-top: 10px;
+}
+
+.bandiera-italiana {
+    margin-right: 10px;
+}
+
+
+.competenze {
+    margin-top: 70px;
+    /* differenza di 20 */
+    padding-top: 10px;
+}
+
+.introduzione img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 250px;
+    width: 500px;
+    margin-right: 40px;
+}
+
+.introduzione {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.introduzione h3 {
+    margin: 0;
+}
+    
