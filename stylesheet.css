@@ -18,10 +18,14 @@ nav {
 
 h1 {
     font-size: 30px;
+    padding-top: 60px;
 }
 
-h3 {
+.introduzione h3 {
     margin-top: 10px;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 18px;
 }
 
 h4 {
@@ -29,13 +33,6 @@ h4 {
     font-size: 18px;
 }
 
-main {
-    padding-top: 60px;
-}
-
-article {
-    height: 250px;
-}
 
 img .bandiere {
     margin-top: 10px;
@@ -47,26 +44,43 @@ img .bandiere {
 
 
 .competenze {
-    margin-top: 70px;
-    /* differenza di 20 */
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .introduzione img {
-    display: inline-block;
-    vertical-align: middle;
-    height: 250px;
-    width: 500px;
-    margin-right: 40px;
-}
-
-.introduzione {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .introduzione h3 {
     margin: 0;
+    padding: 10px 0px 5px 0px;
 }
     
+@media only screen and (min-width: 1000px)  {
+
+    .introduzione img {
+        display: inline-block;
+        vertical-align: middle;
+        height: 250px;
+        width: 500px;
+        margin-right: 40px;
+        margin-left: 0;
+    }
+    
+    .introduzione {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .introduzione h3 {
+        margin: 0;
+        font-size: 20px;
+    } 
+    
+    .competenze {
+        padding-top: 10px;
+    }
+
+ }
